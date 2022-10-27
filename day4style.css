@@ -1,0 +1,95 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background: rgb(12, 242, 242);
+    }
+    .logo{
+    padding: 20px;
+    float: left;
+    }
+    .logo img{
+        width:110%;
+        height:20%;
+    }
+    .menu{
+    float: right;
+    padding-top: 15px;
+    }
+    .menu ul{
+    list-style: none;
+    }
+    .menu ul li{
+        display: inline-block;
+    }
+    .menu ul li a{
+        text-decoration:none;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    /* Header Part End */
+    /* Slider Part Start */
+    .slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(248, 203, 203),rgba(23, 190, 231, 0.6)),url(./Image/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-size:fit;
+    background-position:  center;
+    
+    }
+    .slider h1{
+        position: absolute;
+    top: 40%;
+    left: 38%;
+    color: rgb(250, 22, 236);
+    }
+    .slider p{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        color:rgb(66, 3, 3); 
+    }
+    .slider a{
+        position: absolute;
+        top: 68%;
+        left:46%;
+        text-decoration: none;
+        border: 1px saddlebrown;
+        padding: 10px 25px;
+        color: blue;
+        font-size: 25px;
+        background: rgb(240, 59, 74);
+        border-radius:10px;
+    }
+    
+        /* Header Part End */
+        /* hero part start */
+        .Hero{
+            margin: 0 auto;
+            width: 1200px;
+        }
+        .hero-titel{
+            text-align: center;
+
+        }
+        .Hero-titel h1{}
+        .Hero-titel p{}
+        .card{
+            text-align: center;
+            padding: 20px;
+            
+        }
+        .card img{
+            width: 50px;
+            height: 50px;
+            border: 2px solid blue;
+            border-radius: 50%;
+        }
+.hero-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap:5px;
+}
+        /* hero part end */
