@@ -1,0 +1,180 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background: rgb(12, 242, 242);
+    }
+    .logo{
+    padding: 20px;
+    float: left;
+    }
+    .logo img{
+        width:70%;
+        height:65%;
+    }
+    .menu{
+    float: right;
+    padding-top: 15px;
+    }
+    .menu ul{
+    list-style: none;
+    }
+    .menu ul li{
+        display: inline-block;
+    }
+    .menu ul li a{
+        text-decoration:none;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    /* Header Part End */
+    
+    /* Slider Part Start */
+    .slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(197, 186, 186),rgba(23, 172, 231, 0.6)),url(./Image/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-size:fit;
+    background-position:  center;
+    
+    }
+    .slider h1{
+        position: absolute;
+    top: 50%;
+    left: 40%;
+    color: rgb(6, 22, 236);
+    }
+    .slider p{
+        position: absolute;
+        top: 58%;
+        left: 22%;
+        color:rgb(66, 3, 3); 
+    }
+    .slider a{
+        position: absolute;
+        top: 70%;
+        left:47%;
+        text-decoration: none;
+        border: 1px saddlebrown;
+        padding: 10px 15px;
+        color: blue;
+        font-size: 15px;
+        background: rgb(240, 59, 74);
+        border-radius:20px;
+    }
+    /* Slider Part End */
+    /* hero part start */
+    .hero {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 20px;
+       
+    }
+    span{
+        color: brown;
+    }
+    .card{
+    text-align: center;
+    padding: 20px;
+    background: rgb(34, 231, 238);
+    border: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    .card img {
+        width: 50px;
+        height: 50px;
+        border: 20px rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    .card a{
+        position: inherit;
+        font-size: 12px;
+        text-decoration: none;
+        padding: 5px 9px;
+        border: 1px rgb(0, 0, 0);
+        border-radius: 20px;
+        background: rgb(231, 98, 225);
+    }
+    .card a:hover{
+    color: blue;
+    background: rgb(250, 115, 115);
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        
+    }
+    .animate{
+    animation: 8s dpi linear infinite;
+    
+    }
+    @keyframes dpi{
+        /* from{background-color: rgb(201, 67, 235);} */
+        /* to{background-color: rgb(8, 230, 0);} */
+        /* 0%   {background-color: red;} 
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}*/
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    /* hero part end */
+    /* Add a black background color to the top navigation bar */
+    
+      /* footer part start */
+     footer{
+        width:1200px;
+        margin: 0 auto;
+    }
+    .footer-main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 20px;
+    }
+    .block img{
+        padding-right: 10px;
+        position: relative;
+        top: 8px;
+        height: 22px;
+        width: 22px;
+    }
+    .block{
+        padding: 40px;
+        background-color: rgb(243, 246, 247);
+        display: grid;
+        grid-template-rows: repeat(auto-fit,minmax(180px,auto));
+    }
+    .block a{
+        position: grid;
+        text-decoration: none;
+        font-size: 20px; 
+    }
+    .block a:hover{
+        color: aqua;
+        background-color: #fff;
+    }
+    .social a{
+        position: relative;
+        left: 8%;
+        
+    
+    }
+    .block h3{
+        text-align: center;
+    }
+    .social img{
+        position: relative;
+        top: 15%;
+    }
+    
+      /* footer part end */
